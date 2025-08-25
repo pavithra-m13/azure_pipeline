@@ -1,14 +1,10 @@
 trigger:
-- master  # branch to trigger on
+- master   # branch to trigger on
 
 pool:
-  name: 'Default'  
+  name: 'Default'   # use default agent pool
 
 steps:
-- task: UsePythonVersion@0
-  inputs:
-    versionSpec: '3.x'
-
 - script: |
     echo "Hello, Azure DevOps Pipeline!"
     echo "This is a sample string command"
