@@ -6,7 +6,6 @@ pool:
 
 steps:
 - script: |
-    echo "Hello, Azure DevOps Pipeline!"
-    echo "This is a sample string command"
+    echo "API call successful!"
     echo "Pipeline executed successfully"
-  displayName: 'Run Sample String Commands'
+  displayName: 'Run API Call Success Strings'
